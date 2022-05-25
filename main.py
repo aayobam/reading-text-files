@@ -26,6 +26,6 @@ def count_words():
     for words in text_list:
         text_dict[words] =text_list.count(words)
 
-    print(text_dict)
+    print(f"\nDATA DICTIONARY = {text_dict}\n")
 
 count_words()
